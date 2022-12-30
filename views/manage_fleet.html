@@ -1,0 +1,33 @@
+<script src="scripts/manage-fleet.js"></script>
+
+
+<div class="vertical-container">
+    <div class="form-result" id="create-game-result"></div>
+    <div class="centered-form">
+        <form id="create-game-form">
+            <label for="player-name">Ton pseudo:</label><br>
+            <input type="text" id="player-name" name="player_name" required><br><br>
+            <label for="id-game">identifiant de la partie:</label><br>
+            <input type="number" id="id-game" name="id_game" required><br><br>
+
+            <input class="submit-button" type="submit" value="Changer ma flotte">
+            <h5>choisir le type de vaisseau</h5>
+            <div class="dropdown">
+                <button type="button" class="btn btn-secondary dropdown-toggle" id="deroulant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--changer le type--</button>
+                </div>
+              </div>
+              <label for="x">X:</label><br>
+            <input type="number" id="x" name="x" required value="0"><br>
+            
+            <label for="y">Y:</label><br>
+            <input type="number" id="y" name="y" required value="0"><br>
+            
+            <label for="z">Z:</label><br>
+            <input type="number" id="z" name="z" required value="0"><br>
+           
+            
+            <input class="submit-button" type="submit" value="Valider">
+            <input class="submit-button" type="submit" value="Jouez!">
+        </form>
+    </div>
+</div>
